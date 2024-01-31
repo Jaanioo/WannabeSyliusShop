@@ -1,0 +1,25 @@
+# Ignore directories cache and logs from Sylius
+/var/cache/*
+/var/logs/*
+
+# Ignore Sylius config files
+/app/config/parameters.yml
+/app/config/parameters.yml.dist
+
+# Ignore Composer files
+/vendor/
+/composer.phar
+
+# Ignore PHPStrom files
+.idea/
+
+# Ignore Symfony config files
+/app/config/services.yml
+/app/config/services_dev.yml
+/app/config/services_prod.yml
+/app/config/config_dev.yml
+/app/config/config_prod.yml
+
+# Ignore user-generated files
+/app/bootstrap.php.cache
+/app/config/parameters.yml
